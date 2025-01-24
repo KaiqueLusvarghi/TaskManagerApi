@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\models\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\models\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Models\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Models\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Models\\CategoriaDTO.cs",
+              "RelativeToolTip": "TaskManagerApi\\Models\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:41:13.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TarefasController.cs",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\TarefasController.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\TarefasController.cs",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\TarefasController.cs",
+              "RelativeToolTip": "TaskManagerApi\\Controllers\\TarefasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:29:06.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "TaskManagerApi\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:28:25.081Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
