@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TaskManagerApi.Models.CategoriaDTO, TaskManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TaskManagerApi.DTOS.CategoriaDTO, TaskManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "categoriaDto",
-        "Type": "TaskManagerApi.Models.CategoriaDTO",
+        "Type": "TaskManagerApi.DTOS.CategoriaDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TaskManagerApi.Models.CategoriaDTO",
+        "Type": "TaskManagerApi.DTOS.CategoriaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -115,10 +115,31 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanhoPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoriaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[TaskManagerApi.Models.Tarefa, TaskManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TarefaDTO, TaskManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,14 +158,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "tarefa",
-        "Type": "TaskManagerApi.Models.Tarefa",
+        "Name": "tarefaDto",
+        "Type": "TarefaDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "TaskManagerApi.Models.Tarefa",
+        "Type": "TarefaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -170,7 +191,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "TaskManagerApi.Models.Tarefa",
+        "Type": "TarefaDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -194,8 +215,8 @@
         "IsRequired": true
       },
       {
-        "Name": "tarefa",
-        "Type": "TaskManagerApi.Models.Tarefa",
+        "Name": "tarefaDto",
+        "Type": "TarefaDTO",
         "IsRequired": true
       }
     ],

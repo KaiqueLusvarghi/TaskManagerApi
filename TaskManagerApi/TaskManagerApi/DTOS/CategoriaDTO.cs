@@ -1,4 +1,4 @@
-﻿namespace TaskManagerApi.Models
+﻿namespace TaskManagerApi.DTOS
 {
     public class CategoriaDTO
     {
