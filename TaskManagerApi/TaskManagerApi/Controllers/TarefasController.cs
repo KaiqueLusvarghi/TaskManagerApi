@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,18 +18,24 @@ namespace TaskManagerApi.Controllers
     public class TarefasController : ControllerBase
     {
         private readonly TaskManagerContext _context;
+        private readonly ILogger<TarefasController> _logger;
 
-        public TarefasController(TaskManagerContext context)
+        public TarefasController(TaskManagerContext context, ILogger<TarefasController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
 
         // GET: api/Tarefas/5
         // GET: api/Tarefas
+        //[Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TarefaDTO>>> GetTarefas(int pagina = 1, int tamanhoPagina = 10, string status = null, int? categoriaId = null)
         {
+            // Logando o token de autenticação recebido
+            _logger.LogInformation("Token de Autenticação recebido: " + Request.Headers["Authorization"]);
+
             // Filtro dinâmico com status e categoria
             var query = _context.Tarefas.AsQueryable();  // Tornando a consulta mais dinâmica
 

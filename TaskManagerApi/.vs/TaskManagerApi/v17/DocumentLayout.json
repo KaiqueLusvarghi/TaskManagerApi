@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\tarefascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\dtos\\tarefadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|c:\\dev c#\\taskmanagerapi\\taskmanagerapi\\taskmanagerapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423EF021-0143-4579-AE2F-623C5C8AF699}|TaskManagerApi\\TaskManagerApi.csproj|solutionrelative:taskmanagerapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriaDTO.cs",
-              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\DTOS\\CategoriaDTO.cs",
-              "RelativeDocumentMoniker": "TaskManagerApi\\DTOS\\CategoriaDTO.cs",
-              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\DTOS\\CategoriaDTO.cs",
-              "RelativeToolTip": "TaskManagerApi\\DTOS\\CategoriaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T15:25:20.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\CategoriasController.cs",
               "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "TaskManagerApi\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAiwHgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T14:55:07.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TarefaDTO.cs",
-              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\DTOS\\TarefaDTO.cs",
-              "RelativeDocumentMoniker": "TaskManagerApi\\DTOS\\TarefaDTO.cs",
-              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\DTOS\\TarefaDTO.cs",
-              "RelativeToolTip": "TaskManagerApi\\DTOS\\TarefaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T13:45:49.619Z",
+              "WhenOpened": "2025-01-28T00:33:19.522Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +57,61 @@
               "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\TarefasController.cs",
               "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\TarefasController.cs",
               "RelativeToolTip": "TaskManagerApi\\Controllers\\TarefasController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwGUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T10:29:06.784Z",
+              "WhenOpened": "2025-01-27T23:54:02.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\DTOS\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\DTOS\\LoginDTO.cs",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\DTOS\\LoginDTO.cs",
+              "RelativeToolTip": "TaskManagerApi\\DTOS\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:50:13.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TaskManagerApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:47:41.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagerApi\\Program.cs",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\Program.cs",
+              "RelativeToolTip": "TaskManagerApi\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T23:43:18.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagerApi\\appsettings.json",
+              "ToolTip": "C:\\Dev C#\\TaskManagerApi\\TaskManagerApi\\TaskManagerApi\\appsettings.json",
+              "RelativeToolTip": "TaskManagerApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T23:40:01.506Z",
               "EditorCaption": ""
             }
           ]
