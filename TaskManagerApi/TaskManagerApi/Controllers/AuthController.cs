@@ -46,7 +46,7 @@ namespace TaskManagerApi.Controllers
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name, username), // Nome do usuário
-                new Claim("UniqueName", username), // Outro claim, você pode adicionar mais conforme necessário
+               // new Claim("UniqueName", username), // Outro claim, você pode adicionar mais conforme necessário
                 new Claim(ClaimTypes.Role, "Admin") // Exemplo de claim de role, altere conforme necessário
             };
 

@@ -29,7 +29,7 @@ namespace TaskManagerApi.Controllers
 
         // GET: api/Tarefas/5
         // GET: api/Tarefas
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TarefaDTO>>> GetTarefas(int pagina = 1, int tamanhoPagina = 10, string status = null, int? categoriaId = null)
         {
@@ -76,6 +76,7 @@ namespace TaskManagerApi.Controllers
 
 
         // GET: api/Tarefas/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<TarefaDTO>> GetTarefa(int id)
         {
@@ -110,6 +111,7 @@ namespace TaskManagerApi.Controllers
 
 
         // PUT: api/Tarefas/5
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTarefa(int id, TarefaDTO tarefaDto)
         {
@@ -153,6 +155,7 @@ namespace TaskManagerApi.Controllers
         }
 
         // POST: api/Tarefas
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<TarefaDTO>> PostTarefa(TarefaDTO tarefaDto)
         {
@@ -190,6 +193,7 @@ namespace TaskManagerApi.Controllers
         }
 
         // DELETE: api/Tarefas/5
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTarefa(int id)
         {
